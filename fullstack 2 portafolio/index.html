@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Moya - Portafolio Full-stack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Exo:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar exo-glass">
+        <ul>
+            <li><a href="#sobre-mi">Perfil</a></li>
+            <li><a href="#habilidades">Arsenal</a></li>
+            <li><a href="#experiencia">Trayectoria</a></li>
+            <li><a href="#proyectos">Innovaciones</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre-mi" class="hero reveal">
+            <div class="profile-container">
+                <div class="animated-border-wrapper">
+                    <img src="img/mi-foto.jpg" alt="Francis Moya" class="profile-pic">
+                </div>
+                <span class="badge badge-teal">Nexo Activo</span>
+            </div>
+            
+            <h1 class="title glow-text">¡Hola! Soy <span class="gradient-text-gold">Francis Moya</span></h1>
+            
+            <p class="description">
+                Con <strong class="highlight-text-cyan">21 años</strong>, soy un apasionado por la programación radicado en el sur. Me fascina especializarme en múltiples áreas de la informática, fluyendo desde el <strong>desarrollo Full-stack</strong> hasta el análisis de datos profundo y la exploración de la <strong>Inteligencia Artificial generativa</strong>. Soy una persona proactiva, <strong class="highlight-text-purple">siempre dispuesta a enfrentar nuevos desafíos</strong>, aprender herramientas vanguardistas y dejar mi marca en cada proyecto. ¡Preparado para todo!
+            </p>
+            
+            <div class="social-buttons">
+                <a href="#" id="btn-conectar" class="btn exotic-btn"><i class="fa-brands fa-whatsapp"></i> Conéctame</a>
+                <a href="#" class="btn exotic-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/FrancisMoya1745" target="_blank" class="btn exotic-btn btn-github-large"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: Habilidades (Arsenal Tecnológico) MEJORADA -->
+        <section id="habilidades" class="reveal">
+            <h2 class="section-title"><i class="fa-solid fa-microchip"></i> Arsenal Tecnológico</h2>
+            <div class="skills-grid">
+                <div class="skill-card exotic-card shine-effect">
+                    <i class="fa-brands fa-java skill-icon"></i>
+                    <h3>Java</h3>
+                    <span class="skill-details">POO, APIs REST, Backend</span>
+                </div>
+                <div class="skill-card exotic-card shine-effect">
+                    <i class="fa-brands fa-python skill-icon"></i>
+                    <h3>Python</h3>
+                    <span class="skill-details">Jupyter, Análisis, Scripting</span>
+                </div>
+                <div class="skill-card exotic-card shine-effect">
+                    <i class="fa-solid fa-database skill-icon"></i>
+                    <h3>SQL</h3>
+                    <span class="skill-details">Consultas, Modelado de Datos</span>
+                </div>
+                <div class="skill-card exotic-card shine-effect">
+                    <i class="fa-brands fa-html5 skill-icon"></i>
+                    <h3>HTML5 / CSS</h3>
+                    <span class="skill-details">Diseño Web Responsive</span>
+                </div>
+                <div class="skill-card exotic-card shine-effect">
+                    <i class="fa-solid fa-cubes skill-icon"></i>
+                    <h3>Frameworks</h3>
+                    <span class="skill-details">React, Spring Boot, Kedro</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: Trayectoria MEJORADA -->
+        <section id="experiencia" class="reveal">
+            <h2 class="section-title"><i class="fa-solid fa-path-map"></i> Mi Trayectoria Profesional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot-exotic glow-dot"></div>
+                    <div class="timeline-content exotic-card shine-effect">
+                        <h3>Analista de Datos & Full-stack (Prácticas)</h3>
+                        <span class="date">Empresa DataInnovate | Enero 2024 - Junio 2024</span>
+                        <p>Desarrollé y desplegué modelos predictivos con **Python**, y creé la interfaz web con React. Optimicé consultas SQL, logrando un 20% más de eficiencia en reportes clave.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot-exotic glow-dot"></div>
+                    <div class="timeline-content exotic-card shine-effect">
+                        <h3>Desarrollador Web Freelance</h3>
+                        <span class="date">Independiente | Enero 2023 - Diciembre 2023</span>
+                        <!-- TEXTO MÁS SIMPLE Y CREÍBLE -->
+                        <p>Desarrollo de sitios web a medida para pequeños negocios locales en Puerto Montt. Me encargué de todo el ciclo, desde el diseño de la interfaz hasta la publicación en internet, entregando sitios rápidos y fáciles de navegar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="reveal">
+            <h2 class="section-title"><i class="fa-solid fa-meteor"></i> Innovaciones Técnicas</h2>
+            <div class="projects-grid">
+                <article class="project-card exotic-card shine-effect">
+                    <div class="project-img placeholder-exotic-1"></div>
+                    <div class="project-info">
+                        <h3>Pipeline de Datos: Pokémon con Kedro</h3>
+                        <div class="tags"><span class="tag tag-python"><i class="fa-brands fa-python"></i> Python</span><span class="tag tag-ds"><i class="fa-solid fa-diagram-project"></i> Kedro</span><span class="tag tag-sql">Data Science</span></div>
+                        <p>Diseño y construcción de un pipeline de procesamiento y análisis de datos basado en el mundo Pokémon, utilizando el framework Kedro para flujos de trabajo escalables.</p>
+                        <div class="project-links"><a href="https://github.com/FrancisMoya1745/kedro_pokemon" target="_blank" class="btn-small"><i class="fa-brands fa-github"></i> Ver Código</a></div>
+                    </div>
+                </article>
+                <article class="project-card exotic-card shine-effect">
+                    <div class="project-img placeholder-exotic-2"></div>
+                    <div class="project-info">
+                        <h3>E-Commerce: Tienda de Autos y Accesorios</h3>
+                        <div class="tags"><span class="tag tag-java"><i class="fa-brands fa-java"></i> Backend</span><span class="tag tag-react"><i class="fa-brands fa-html5"></i> Frontend</span><span class="tag tag-fullstack">Full-Stack</span></div>
+                        <p>Plataforma web integral para la venta y cotización de vehículos y accesorios automotrices, con un sistema de gestión y diseño enfocado en la experiencia del usuario.</p>
+                        <div class="project-links"><a href="https://github.com/FrancisMoya1745/tienda-autos-accesorios3" target="_blank" class="btn-small"><i class="fa-brands fa-github"></i> Ver Código</a></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- VENTANA EMERGENTE (MODAL) DEL TELÉFONO -->
+    <div id="contacto-modal" class="modal-overlay">
+        <div class="modal-content exotic-card">
+            <button id="close-modal" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <i class="fa-brands fa-whatsapp whatsapp-icon"></i>
+            <h3 style="color: white; font-family: 'Exo', sans-serif;">Contacto Directo</h3>
+            <p style="color: var(--text-secondary-exotic); margin-bottom: 1rem;">¡Hablemos sobre tu próximo proyecto!</p>
+            
+            <div class="phone-box">
+                <span id="phone-number">+56 9 3178 5759</span>
+                <button id="copy-btn" class="btn-small"><i class="fa-regular fa-copy"></i> Copiar</button>
+            </div>
+            
+            <a href="https://wa.me/56931785759" target="_blank" class="btn wpp-btn">
+                <i class="fa-brands fa-whatsapp"></i> Enviar WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
